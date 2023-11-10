@@ -13,7 +13,7 @@ classifiers = [
 ]
 keywords = ["databases","SQL"]
 dependencies = []
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
     [project.optional-dependencies]
     dev = ["bumpver", "pip-tools", "build", "twine", "pytest"]
