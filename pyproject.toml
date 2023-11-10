@@ -3,9 +3,9 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tabledb"
+name = "rundb"
 version = "0.0.1"
-description = "A simple single-table python wrapper around sqlite3"
+description = "A simple python wrapper around sqlite3 to run ML experiments"
 readme = "README.md"
 authors = [{ name = "lfrati", email = "lfrati.github@gmail.com" }]
 classifiers = [
@@ -19,7 +19,7 @@ requires-python = ">=3.9"
     dev = ["bumpver", "pip-tools", "build", "twine", "pytest"]
 
     [project.urls]
-    Homepage = "https://github.com/lfrati/tableDB"
+    Homepage = "https://github.com/lfrati/runDB"
 
 [tool.bumpver]
 current_version = "0.0.1"
